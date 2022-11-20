@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="fs2json",
-    version="0.1.0",
+    version="0.1.1",
     author="Andrew Serra",
     author_email="andy@serra.us",
     description="A command-line tool to convert a directory to a json format",
