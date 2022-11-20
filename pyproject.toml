@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fs2json"
+version = "0.1.0"
+authors = [
+    { name="Andrew Serra", email="andy@serra.us" }
+]
+description = "A command-line tool to convert a directory to a json format"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AndrewSerra/fs2json"
+"Bug Tracker" = "https://github.com/AndrewSerra/fs2json/issues"
