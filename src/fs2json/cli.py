@@ -50,7 +50,7 @@ def create_parser(parser: ArgumentParser):
     parser.add_argument('path', help="Path to start mapping to json")
     parser.add_argument('-o', '--out-file')
 
-if __name__ == '__main__':
+def main():
     parser = ArgumentParser(
         prog="fs2json",
         description="A command-line tool to convert a directory to a json format"
@@ -67,3 +67,6 @@ if __name__ == '__main__':
     file = create_output_file(output_file)
     with open(file, "w") as outfile:
         json.dump(converted_obj, outfile)
+
+if __name__ == '__main__':
+    main()

@@ -6,13 +6,11 @@ setup(
     author="Andrew Serra",
     author_email="andy@serra.us",
     description="A command-line tool to convert a directory to a json format",
-    readme="README.md",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    requires=">=3.7",
-    package_dir="src",
+    package_dir={"fs2json": "src/fs2json"},
     script_name="cli.py"
 )
